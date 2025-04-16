@@ -3,16 +3,16 @@ import { useEffect } from 'react';
 function Itemdata({ id, addedItems, setAddedItems }) {
   let name, price;
 
-  // Assign name and price based on id
-  if (id === 'ap') name = 'Apple Airpods', price = '₹ 2,200';
-  else if (id === 'ip') name = 'Iphone 14 Pro', price = '₹ 69,000';
-  else if (id === 'ms') name = 'Magic Mouse', price = '₹ 7,500';
+  
+  if (id === 'ap') name = 'Apple Airpods', price = '₹ 1000';
+  else if (id === 'ip') name = 'Iphone 14 Pro', price = '₹ 29,000';
+  else if (id === 'ms') name = 'Magic Mouse', price = '₹ 6,900';
   else if (id === 'mb') name = 'Mac Book Pro', price = '₹ 1,11,000';
-  else if (id === 'ipd') name = 'Apple Ipad', price = '₹ 50,000';
-  else if (id === 'pt') name = 'Potato', price = '₹ 500';
-  else if (id === 'mg') name = 'Maggi', price = '₹ 14';
-  else if (id === 'sh') name = 'Schezwan Sauce', price = '₹ 100';
-  else if (id === 'on') name = 'Onion', price = '₹ 20';
+  else if (id === 'ipd') name = 'Apple Ipad', price = '₹ 20,000';
+  else if (id === 'pt') name = 'Potato', price = '₹ 50';
+  else if (id === 'mg') name = 'Maggi', price = '₹ 11';
+  else if (id === 'sh') name = 'Schezwan Sauce', price = '₹ 85';
+  else if (id === 'on') name = 'Onion', price = '₹ 18';
 
   function remClick() {
     setAddedItems(prev => prev.filter(itemId => itemId !== id));

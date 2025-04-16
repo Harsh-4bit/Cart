@@ -15,15 +15,15 @@ function Card({id, isAdded, setAddedItems}){
     
     let name, price, img;
     function item(){
-        if(id == 'ap') name='Apple Airpods', price='₹ 2,200', img=airpod;
-        else if(id == 'ip') name='Iphone 14 Pro', price='₹ 69,000', img=iphone;
-        else if(id == 'ms') name='Magic Mouse', price='₹ 7,500', img=mouse;
+        if(id == 'ap') name='Apple Airpods', price='₹ 1000', img=airpod;
+        else if(id == 'ip') name='Iphone 14 Pro', price='₹ 29,000', img=iphone;
+        else if(id == 'ms') name='Magic Mouse', price='₹ 6,900', img=mouse;
         else if(id == 'mb') name='Mac Book Pro', price='₹ 1,11,000', img=macbook;
-        else if(id == 'ipd') name='Apple Ipad', price='₹ 50,000', img=ipad;
-        else if(id == 'pt') name='Potato', price='₹ 500', img=potato;
-        else if(id == 'mg') name='Maggi', price='₹ 14', img=maggi;
-        else if(id == 'sh') name='Schezwan Sauce', price='₹ 100', img=shezwan;
-        else if(id == 'on') name='Onion', price='₹ 20', img=onion;
+        else if(id == 'ipd') name='Apple Ipad', price='₹ 20,000', img=ipad;
+        else if(id == 'pt') name='Potato', price='₹ 50', img=potato;
+        else if(id == 'mg') name='Maggi', price='₹ 11', img=maggi;
+        else if(id == 'sh') name='Schezwan Sauce', price='₹ 85', img=shezwan;
+        else if(id == 'on') name='Onion', price='₹ 18', img=onion;
     }
     item();
 
